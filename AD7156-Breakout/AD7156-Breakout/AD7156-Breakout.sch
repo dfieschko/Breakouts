@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AD7156BCPZ-REEL7:AD7156BCPZ-REEL7 U1
+U 1 1 610180ED
+P 5925 4100
+F 0 "U1" H 5925 4970 50  0000 C CNN
+F 1 "AD7156BCPZ-REEL7" H 5925 4879 50  0000 C CNN
+F 2 "AD7156BCPZ-REEL7:SON50P300X300X80-11N" H 5925 4100 50  0001 L BNN
+F 3 "" H 5925 4100 50  0001 L BNN
+	1    5925 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6625 3700 2    50   Input ~ 0
+EXC1
+Text GLabel 6625 3800 2    50   Input ~ 0
+EXC2
+Text GLabel 6625 3900 2    50   Input ~ 0
+OUT1
+Text GLabel 6625 4000 2    50   Input ~ 0
+OUT2
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 6101931A
+P 7000 3200
+F 0 "#PWR0101" H 7000 3050 50  0001 C CNN
+F 1 "+3.3V" H 7015 3373 50  0000 C CNN
+F 2 "" H 7000 3200 50  0001 C CNN
+F 3 "" H 7000 3200 50  0001 C CNN
+	1    7000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 3500 6700 3500
+$Comp
+L power:GND #PWR0102
+U 1 1 61019CAC
+P 6750 4750
+F 0 "#PWR0102" H 6750 4500 50  0001 C CNN
+F 1 "GND" H 6755 4577 50  0000 C CNN
+F 2 "" H 6750 4750 50  0001 C CNN
+F 3 "" H 6750 4750 50  0001 C CNN
+	1    6750 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 4700 6750 4700
+Wire Wire Line
+	6750 4700 6750 4750
+$Comp
+L Device:C C1
+U 1 1 6101A7FD
+P 7000 3350
+F 0 "C1" H 7115 3396 50  0000 L CNN
+F 1 "0.1u" H 7115 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 3200 50  0001 C CNN
+F 3 "~" H 7000 3350 50  0001 C CNN
+	1    7000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3200 6700 3200
+Wire Wire Line
+	6700 3200 6700 3500
+Connection ~ 7000 3200
+$Comp
+L power:GND #PWR0103
+U 1 1 6101C1CC
+P 7000 3500
+F 0 "#PWR0103" H 7000 3250 50  0001 C CNN
+F 1 "GND" H 7005 3327 50  0000 C CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5225 3700 0    50   Input ~ 0
+CIN1
+Text GLabel 5225 3800 0    50   Input ~ 0
+CIN2
+Text GLabel 5225 3900 0    50   Input ~ 0
+SCL
+Text GLabel 5225 4400 0    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0104
+U 1 1 6101CD7A
+P 4850 4200
+F 0 "#PWR0104" H 4850 3950 50  0001 C CNN
+F 1 "GND" H 4855 4027 50  0000 C CNN
+F 2 "" H 4850 4200 50  0001 C CNN
+F 3 "" H 4850 4200 50  0001 C CNN
+	1    4850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 4200 4850 4200
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 61020A73
+P 8525 3625
+F 0 "J2" H 8443 3842 50  0000 C CNN
+F 1 "Cx1" H 8443 3751 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8525 3625 50  0001 C CNN
+F 3 "~" H 8525 3625 50  0001 C CNN
+	1    8525 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 61021DE3
+P 8525 4150
+F 0 "J3" H 8443 4367 50  0000 C CNN
+F 1 "Cx2" H 8443 4276 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8525 4150 50  0001 C CNN
+F 3 "~" H 8525 4150 50  0001 C CNN
+	1    8525 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8325 3725 0    50   Input ~ 0
+EXC1
+Text GLabel 8325 3625 0    50   Input ~ 0
+CIN1
+Text GLabel 8325 4250 0    50   Input ~ 0
+EXC2
+Text GLabel 8325 4150 0    50   Input ~ 0
+CIN2
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 610268ED
+P 3375 4000
+F 0 "J1" H 3293 4417 50  0000 C CNN
+F 1 "Conn_01x06" H 3293 4326 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3375 4000 50  0001 C CNN
+F 3 "~" H 3375 4000 50  0001 C CNN
+	1    3375 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 6102888F
+P 4075 3800
+F 0 "#PWR0105" H 4075 3650 50  0001 C CNN
+F 1 "+3.3V" H 4090 3973 50  0000 C CNN
+F 2 "" H 4075 3800 50  0001 C CNN
+F 3 "" H 4075 3800 50  0001 C CNN
+	1    4075 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6102A6F3
+P 4075 3900
+F 0 "#PWR0106" H 4075 3650 50  0001 C CNN
+F 1 "GND" H 4080 3727 50  0000 C CNN
+F 2 "" H 4075 3900 50  0001 C CNN
+F 3 "" H 4075 3900 50  0001 C CNN
+	1    4075 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 3800 4075 3800
+Wire Wire Line
+	4075 3900 3575 3900
+Text GLabel 3575 4300 2    50   Input ~ 0
+OUT1
+Text GLabel 3575 4200 2    50   Input ~ 0
+OUT2
+Text GLabel 3575 4000 2    50   Input ~ 0
+SDA
+Text GLabel 3575 4100 2    50   Input ~ 0
+SCL
+$EndSCHEMATC

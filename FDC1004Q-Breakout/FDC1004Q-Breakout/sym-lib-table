@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name FDC1004DGSR)(type Legacy)(uri C:/Users/Darius/Documents/GitHub/Breakout-Boards/FDC1004Q-Breakout/libraries/FDC1004DGSR/FDC1004DGSR.lib)(options "")(descr ""))
+  (lib (name FDC1004Q-Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/FDC1004Q-Breakout-rescue.lib)(options "")(descr ""))
+)

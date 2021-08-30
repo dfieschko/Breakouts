@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FDC1004Q-Breakout-rescue:FDC1004DGSR-FDC1004DGSR U1
+U 1 1 6102DEA1
+P 6175 3775
+F 0 "U1" H 6175 4645 50  0000 C CNN
+F 1 "FDC1004DGSR" H 6175 4554 50  0000 C CNN
+F 2 "FDC1004DGSR:SOP50P490X110-10N" H 6175 3775 50  0001 L BNN
+F 3 "" H 6175 3775 50  0001 L BNN
+	1    6175 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 6102F197
+P 6975 3125
+F 0 "#PWR0101" H 6975 2975 50  0001 C CNN
+F 1 "+3V3" H 6990 3298 50  0000 C CNN
+F 2 "" H 6975 3125 50  0001 C CNN
+F 3 "" H 6975 3125 50  0001 C CNN
+	1    6975 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 3175 6975 3175
+Wire Wire Line
+	6975 3175 6975 3125
+$Comp
+L power:GND #PWR0102
+U 1 1 6102FA4A
+P 6975 4450
+F 0 "#PWR0102" H 6975 4200 50  0001 C CNN
+F 1 "GND" H 6980 4277 50  0000 C CNN
+F 2 "" H 6975 4450 50  0001 C CNN
+F 3 "" H 6975 4450 50  0001 C CNN
+	1    6975 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 4375 6975 4375
+Wire Wire Line
+	6975 4375 6975 4450
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 610307C9
+P 8125 3750
+F 0 "J2" H 8097 3724 50  0000 R CNN
+F 1 "Sense" H 8097 3633 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 8125 3750 50  0001 C CNN
+F 3 "~" H 8125 3750 50  0001 C CNN
+	1    8125 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 61032953
+P 3950 3725
+F 0 "J1" H 4058 4006 50  0000 C CNN
+F 1 "Breakout" H 4050 3925 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3950 3725 50  0001 C CNN
+F 3 "~" H 3950 3725 50  0001 C CNN
+	1    3950 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61034255
+P 6975 3325
+F 0 "C1" H 7090 3371 50  0000 L CNN
+F 1 "1u" H 7090 3280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7013 3175 50  0001 C CNN
+F 3 "~" H 6975 3325 50  0001 C CNN
+	1    6975 3325
+	1    0    0    -1  
+$EndComp
+Connection ~ 6975 3175
+$Comp
+L power:GND #PWR0103
+U 1 1 61034D3D
+P 6975 3475
+F 0 "#PWR0103" H 6975 3225 50  0001 C CNN
+F 1 "GND" H 6980 3302 50  0000 C CNN
+F 2 "" H 6975 3475 50  0001 C CNN
+F 3 "" H 6975 3475 50  0001 C CNN
+	1    6975 3475
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 3825 2    50   Input ~ 0
+SCL
+Text GLabel 4150 3925 2    50   Input ~ 0
+SDA
+Text GLabel 5475 4175 0    50   Input ~ 0
+SDA
+Text GLabel 5475 3775 0    50   Input ~ 0
+SCL
+Text GLabel 7925 4050 0    50   Input ~ 0
+SHLD1
+Text GLabel 7925 3550 0    50   Input ~ 0
+SHLD2
+Text GLabel 7925 3950 0    50   Input ~ 0
+CIN1
+Text GLabel 7925 3850 0    50   Input ~ 0
+CIN2
+Text GLabel 7925 3750 0    50   Input ~ 0
+CIN3
+Text GLabel 7925 3650 0    50   Input ~ 0
+CIN4
+Text GLabel 5475 3875 0    50   Input ~ 0
+SHLD1
+Text GLabel 5475 3975 0    50   Input ~ 0
+SHLD2
+Text GLabel 5475 3375 0    50   Input ~ 0
+CIN1
+Text GLabel 5475 3475 0    50   Input ~ 0
+CIN2
+Text GLabel 5475 3575 0    50   Input ~ 0
+CIN3
+Text GLabel 5475 3675 0    50   Input ~ 0
+CIN4
+Wire Wire Line
+	4575 3725 4150 3725
+$Comp
+L power:GND #PWR0105
+U 1 1 6103707C
+P 4575 3725
+F 0 "#PWR0105" H 4575 3475 50  0001 C CNN
+F 1 "GND" H 4580 3552 50  0000 C CNN
+F 2 "" H 4575 3725 50  0001 C CNN
+F 3 "" H 4575 3725 50  0001 C CNN
+	1    4575 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3625 4575 3625
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 61035149
+P 4575 3625
+F 0 "#PWR0104" H 4575 3475 50  0001 C CNN
+F 1 "+3V3" H 4590 3798 50  0000 C CNN
+F 2 "" H 4575 3625 50  0001 C CNN
+F 3 "" H 4575 3625 50  0001 C CNN
+	1    4575 3625
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
