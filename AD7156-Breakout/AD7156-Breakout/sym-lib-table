@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name AD7156BCPZ-REEL7)(type Legacy)(uri C:/Users/Darius/Documents/GitHub/AD7156-Breakout/libraries/AD7156BCPZ-REEL7/AD7156BCPZ-REEL7.lib)(options "")(descr ""))
+  (lib (name AD7156-Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/AD7156-Breakout-rescue.lib)(options "")(descr ""))
 )

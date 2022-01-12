@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DAC7678SPW:DAC7678SPW U1
+L DAC7678_16TSSOP-rescue:DAC7678SPW-DAC7678SPW U1
 U 1 1 60FB01BB
 P 5775 3850
 F 0 "U1" H 5775 4820 50  0000 C CNN
@@ -27,27 +27,27 @@ $EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 60FBB6E3
-P 3875 3325
-F 0 "#PWR01" H 3875 3175 50  0001 C CNN
-F 1 "+5V" H 3890 3498 50  0000 C CNN
-F 2 "" H 3875 3325 50  0001 C CNN
-F 3 "" H 3875 3325 50  0001 C CNN
-	1    3875 3325
+P 4250 3325
+F 0 "#PWR01" H 4250 3175 50  0001 C CNN
+F 1 "+5V" H 4265 3498 50  0000 C CNN
+F 2 "" H 4250 3325 50  0001 C CNN
+F 3 "" H 4250 3325 50  0001 C CNN
+	1    4250 3325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3325 3875 3325
+	3725 3325 4250 3325
 Wire Wire Line
-	3350 3425 3875 3425
+	3725 3425 4250 3425
 $Comp
 L power:GND #PWR02
 U 1 1 60FBD32B
-P 3875 3425
-F 0 "#PWR02" H 3875 3175 50  0001 C CNN
-F 1 "GND" H 3880 3252 50  0000 C CNN
-F 2 "" H 3875 3425 50  0001 C CNN
-F 3 "" H 3875 3425 50  0001 C CNN
-	1    3875 3425
+P 4250 3425
+F 0 "#PWR02" H 4250 3175 50  0001 C CNN
+F 1 "GND" H 4255 3252 50  0000 C CNN
+F 2 "" H 4250 3425 50  0001 C CNN
+F 3 "" H 4250 3425 50  0001 C CNN
+	1    4250 3425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -129,27 +129,27 @@ F 3 "" H 4600 3975 50  0001 C CNN
 	1    4600 3975
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 3525 2    43   Input ~ 0
+Text GLabel 3725 3525 2    43   Input ~ 0
 I2C_SCL
-Text GLabel 3350 3625 2    43   Input ~ 0
+Text GLabel 3725 3625 2    43   Input ~ 0
 I2C_SDA
 Text GLabel 4775 3650 0    43   Input ~ 0
 I2C_SCL
 Text GLabel 4775 4250 0    43   Input ~ 0
 I2C_SDA
-Text GLabel 3350 3825 2    43   Input ~ 0
+Text GLabel 3725 3825 2    43   Input ~ 0
 ADDR0
 Text GLabel 4775 3550 0    43   Input ~ 0
 ADDR0
-Text GLabel 3350 4025 2    43   Input ~ 0
+Text GLabel 3725 4025 2    43   Input ~ 0
 ~CLR
 Text GLabel 4775 3350 0    39   Input ~ 0
 ~CLR
 Text GLabel 4775 3450 0    39   Input ~ 0
 ~LDAC
-Text GLabel 3350 3725 2    39   Input ~ 0
+Text GLabel 3725 3725 2    39   Input ~ 0
 ~LDAC
-Text GLabel 3350 3925 2    43   Input ~ 0
+Text GLabel 3725 3925 2    43   Input ~ 0
 VREF
 Text GLabel 4575 3750 0    43   Input ~ 0
 VREF
@@ -191,12 +191,12 @@ VOUTH
 $Comp
 L Connector:Conn_01x08_Male J1
 U 1 1 61001B35
-P 3150 3625
-F 0 "J1" H 3250 4125 50  0000 C CNN
-F 1 "Conn_In" H 3250 4050 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3150 3625 50  0001 C CNN
-F 3 "~" H 3150 3625 50  0001 C CNN
-	1    3150 3625
+P 3525 3625
+F 0 "J1" H 3625 4125 50  0000 C CNN
+F 1 "Conn_In" H 3625 4050 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3525 3625 50  0001 C CNN
+F 3 "~" H 3525 3625 50  0001 C CNN
+	1    3525 3625
 	1    0    0    -1  
 $EndComp
 $Comp
