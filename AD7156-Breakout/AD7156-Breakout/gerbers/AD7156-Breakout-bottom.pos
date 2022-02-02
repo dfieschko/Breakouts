@@ -1,0 +1,7 @@
+### Module positions - created on Wed Feb  2 16:18:43 2022 ###
+### Printed by Pcbnew version (6.0.1)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                               PosX       PosY       Rot  Side
+J1        Conn_01x06  PinSocket_1x06_P2.54mm_Vertical  -147.3200  -109.2200    0.0000  bottom
+## End

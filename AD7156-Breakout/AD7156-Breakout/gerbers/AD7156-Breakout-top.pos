@@ -1,0 +1,10 @@
+### Module positions - created on Wed Feb  2 16:18:43 2022 ###
+### Printed by Pcbnew version (6.0.1)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                               PosX       PosY       Rot  Side
+C1        0.1u              C_0603_1608Metric                 152.1460  -108.4710   90.0000  top
+J2        Cx1               PinSocket_1x02_P2.54mm_Vertical   157.4800   -99.0600  180.0000  top
+J3        Cx2               PinSocket_1x02_P2.54mm_Vertical   157.4800  -109.2200  180.0000  top
+U1        AD7156BCPZ-REEL7  SON50P300X300X80-11N              153.6700  -104.1400   90.0000  top
+## End
