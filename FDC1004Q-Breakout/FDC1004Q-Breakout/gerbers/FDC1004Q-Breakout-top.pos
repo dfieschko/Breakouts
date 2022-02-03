@@ -1,0 +1,10 @@
+### Module positions - created on Wed Feb  2 16:55:05 2022 ###
+### Printed by Pcbnew version (6.0.1)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                               PosX       PosY       Rot  Side
+C1        1u           C_0603_1608Metric                 137.4010  -101.2190    0.0000  top
+J1        Breakout     PinHeader_1x04_P2.54mm_Vertical   134.6200  -100.3300    0.0000  top
+J2        Sense        PinHeader_1x06_P2.00mm_Vertical   146.6850   -99.0600    0.0000  top
+U1        FDC1004DGSR  SOP50P490X110-10N                 140.3350  -104.1400  180.0000  top
+## End
