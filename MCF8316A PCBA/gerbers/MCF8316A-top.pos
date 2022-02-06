@@ -1,0 +1,24 @@
+### Module positions - created on Sat Feb  5 19:11:51 2022 ###
+### Printed by Pcbnew version (6.0.1)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+C1        47n             C_0603_1608Metric                             147.0660  -101.5870   90.0000  top
+C2        1u              C_0603_1608Metric                             147.0660  -104.6350   90.0000  top
+C3        1u              C_0603_1608Metric                             147.0660  -107.9630  -90.0000  top
+C4        1u              C_0603_1608Metric                             156.7050  -106.9340  180.0000  top
+C5        1u              C_0603_1608Metric                             147.8150   -99.3140    0.0000  top
+C6        10u             C_1206_3216Metric                             142.6210  -108.6630  -90.0000  top
+C7        10u             C_1206_3216Metric                             145.0340  -108.6630  -90.0000  top
+J4        Header_0.254mm  PinHeader_1x02_P2.54mm_Vertical               165.4556   -92.2478    0.0000  top
+J5        Wire            PinHeader_1x01_P2.54mm_Vertical               156.9720  -104.1400    0.0000  top
+R1        300-800         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   167.2496  -100.0760    0.0000  top
+R2        10k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   161.9090   -99.5680    0.0000  top
+R3        10k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   151.2730   -99.5680  180.0000  top
+R4        10k             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   156.6070   -99.5680    0.0000  top
+SW1       DIP_SMC         SW_DS04-254-1-01BK-SMT                        151.2570   -92.7100  -90.0000  top
+SW2       DIP_SMC         SW_DS04-254-1-01BK-SMT                        156.0830   -92.7100  -90.0000  top
+SW3       DIP_SMC         SW_DS04-254-1-01BK-SMT                        160.9090   -92.7100  -90.0000  top
+U1        MCF8316A        MCF8316A                                      152.1460  -104.9020    0.0000  top
+VR1       3310R-125-103L  3310R-125-103L                                166.6240  -103.9495  180.0000  top
+## End
